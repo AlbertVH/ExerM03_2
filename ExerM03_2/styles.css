@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 120px;
+}
+
+.navbar a{
+    cursor: pointer;
+}
+
+.navbar a:hover{
+    color: rgb(255, 0, 0);
+    font-size: larger;
+}
+
+.navbar a:active{
+    color: rgb(89, 255, 47);
+}
+
+.navbar a:visited{
+    color: rgb(33, 88, 207);
+}
+
+.menu-link{
+    font-family: sans-serif;
+    padding-right: 20px;
+    vertical-align: middle;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.logo img{
+    width: 62px;
+    height: 66px;
+    vertical-align: middle;
+    padding: 0 30px 0 30px;
+}
+
+.header {
+    height: 250px;
+    flex-basis: 100%;
+    background-image: url("fons-japones.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slogan{ 
+    color: rgba(178, 34, 34, 0.685);
+    font-size: 2.5em;
+    text-align: center;
+    margin: 60px 0px 120px 0px;
+}
+
+.container{
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    background-color: #adacac;
+    margin: 0;
+    width: 100%;
+}
+
+.element {
+    flex-basis: 48%;
+    height: 200px;
+    margin: 0;
+}
+
+.element img {
+    height: 100%;
+    width: 100%;
+    border-style: solid;
+    border-width: 6px;
+    border-color: #d3d1d1;
+}
+
